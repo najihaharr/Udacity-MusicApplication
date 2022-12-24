@@ -41,7 +41,10 @@ public class Top10Activity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 
+                // Getting the song object position where user has clicked on
                 SongChoice song = songs.get(position);
+
+                // Create an intent to send the position details - song, artiste, image
 
                 Intent nowPlayingIntent = new Intent(Top10Activity.this, NowPlayingActivity.class);
                 nowPlayingIntent.putExtra("Song Title", song.getSongTitle());
