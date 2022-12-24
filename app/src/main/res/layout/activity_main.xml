@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/main_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/category_favourites"
+        style="@style/CategoryStyleFav"
+        android:background="@color/favourites_bground"
+        android:text="@string/category_favourites"
+        />
+
+    <TextView
+        android:id="@+id/category_top10"
+        style="@style/CategoryStyle"
+        android:background="@color/others_bground"
+        android:text="@string/category_top10"
+        />
+
+    <TextView
+        android:id="@+id/category_rewind"
+        style="@style/CategoryStyle"
+        android:background="@color/others_bground"
+        android:text="@string/category_rewind"
+        />
+
+
+</LinearLayout>

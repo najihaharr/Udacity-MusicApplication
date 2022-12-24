@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Music Application</string>
+
+    <string name="category_favourites">Favourites</string>
+
+    <string name="category_top10">Top 10 Hits</string>
+
+    <string name="category_rewind">90s Hits Rewind</string>
+
+    <string name="now_playing">Now Playing</string>
+</resources>
